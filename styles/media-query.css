@@ -3,8 +3,8 @@
 
     /*Cores Principais*/
     --cor00: white;
-    --cor01: #ff00ff;
-    --cor02: #047377;
+    --cor01: #0d0852;
+    --cor02: #a1c5e6;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -13,6 +13,7 @@
     }    
     section#login{
         width: 90vh;
+        height: 280px;
     }
     section#login > div#imagem{
         float: left;
@@ -31,6 +32,7 @@
     } 
     section#login{
         width: 950px;
+        height: 400px;
     }
     section#login > div#imagem{
         float: right;
@@ -43,6 +45,7 @@
     }
     div#formulario > p{
         font-size: 1.5em;
+        margin: 20px 0px;
     }
     
 }

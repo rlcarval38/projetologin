@@ -9,8 +9,9 @@ LILAS:#5F4A87
 
     /*Cores Principais*/
     --cor00: white;
-    --cor01: #ff00ff;
-    --cor02: #047377;
+    --cor01: #0d0852;
+    --cor02: #a1c5e6;
+    --cor03: #06032b;
 }
 *{
     margin: 0px;
@@ -34,7 +35,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: var(--cor00);
@@ -45,7 +45,7 @@ section#login{
     
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-
+    transform: translate(-50%, -50%);
 }
 section#login > div#imagem {
     display: block;
@@ -89,10 +89,10 @@ div.campo > input{
     font-size: 1em;
     width:calc(100% - 44.5px);
     height: 100%;
-    transform: translateY(-11.9px);
     border: none;
     border-radius: 8px;
     padding: ;
+    transform: translateY(-11.9px);
 }
 div.campo > input:focus-within{
     background-color: var(--cor00);
@@ -103,13 +103,13 @@ form > input[type=submit]{
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: var(--cor02);
+    background-color: var(--cor01);
     color: white;
     border: none;
     border-radius: 5px;
 }
 form > input[type=submit]:hover{
-    background-color: var(--cor01);
+    background-color: var(--cor03);
 }
 form >a.botao{
     display: block;
