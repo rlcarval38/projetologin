@@ -19,7 +19,7 @@ LILAS:#5F4A87
     box-sizing: border-box;
 }
 body, html{
-   background-color: var(--cor01);
+   background-color: var(--cor02);
    height: 100vh;
    width: 100vw;
 
@@ -58,5 +58,12 @@ section#login > div#imagem {
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+div#formulario > h1{
+    text-align: center;
+    margin-top: 10px;
+}
+div#formulario > p{
+    font-size: .8em;
 }
 
