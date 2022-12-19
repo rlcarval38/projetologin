@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
@@ -18,10 +19,12 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post">
                     <label for="iemail">
-                        <input type="email" name="email" id="iemail">
+                        <i id="key" class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" placeholder="Digite se Email...">
                     </label> <br>
                     <label for="isenha">
-                        <input type="password" name="senha" id="isenha">
+                        <i id="key" class="material-icons">key</i>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua Senha...">
                     </label><br>
                         <input type="submit" value="Entrar">
                         <input type="reset" value="Esqueci a senha"> 

@@ -8,6 +8,7 @@ LILAS:#5F4A87
 :root{
 
     /*Cores Principais*/
+    --cor00: white;
     --cor01: #e72de7;
     --cor02: #4a8587;
 }
@@ -19,11 +20,22 @@ LILAS:#5F4A87
 }
 body{
     background-image: linear-gradient( to bottom , var(--cor01), var(--cor02));
+    background-repeat: no-repeat;
+    height: 100vh;
+    
 }
-#login{
+#imagem{
+    background-image: url(../image/fundo-login.jpg);
+    width: 50vw;
+}
+#formulario{
     position: relative;
     top: 25vh;
     margin: auto;
-    width: 50vh;
-    height: 50vw;
+    width: 40%;
+    height: 50%;
+    background-color: var(--cor00);
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
 }
