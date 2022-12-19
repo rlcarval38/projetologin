@@ -24,18 +24,17 @@ body{
     height: 100vh;
     
 }
-#imagem{
-    background-image: url(../image/fundo-login.jpg);
-    width: 50vw;
-}
+
 #formulario{
+    background-image: url(../image/fundo-login.jpg);
     position: relative;
     top: 25vh;
     margin: auto;
-    width: 40%;
-    height: 50%;
+    width: 80%;
+    height: 100%;
     background-color: var(--cor00);
     padding: 10px;
     text-align: center;
     border-radius: 20px;
+    
 }
