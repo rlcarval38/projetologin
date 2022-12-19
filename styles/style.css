@@ -120,8 +120,8 @@ form >a.botao{
     padding-top: 5px;
     margin-top: 5px;
     background-color: var(--cor00);
-    color: var(--cor02);
-    border: 1px solid var(--cor02);
+    color: var(--cor03);
+    border: 1px solid var(--cor03);
     border-radius: 7px;
     text-decoration: none;
 }
