@@ -26,7 +26,6 @@ body{
 }
 
 #formulario{
-    background-image: url(../image/fundo-login.jpg);
     position: relative;
     top: 25vh;
     margin: auto;
