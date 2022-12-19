@@ -1,8 +1,29 @@
 @charset "UTF-8";
-
 /* 
 PALETAV DE CORES
 AZUL: #435086
 LILAS:#5F4A87
 
 */
+:root{
+
+    /*Cores Principais*/
+    --cor01: #e72de7;
+    --cor02: #4a8587;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient( to bottom , var(--cor01), var(--cor02));
+}
+#login{
+    position: relative;
+    top: 25vh;
+    margin: auto;
+    width: 50vh;
+    height: 50vw;
+}
